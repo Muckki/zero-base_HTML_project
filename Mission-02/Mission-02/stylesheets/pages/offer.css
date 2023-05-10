@@ -1,0 +1,177 @@
+/* 오늘의 쇼핑 제안 */
+body {
+  width: 100vw;
+  height: 2000px;
+  display: block;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  display: flex;
+}
+
+h1 img {
+  width: 176px;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+body a header h1 {
+  margin-bottom: 48px;
+  margin-top: 100px;
+}
+
+.discovery-ss {
+  justify-content: center;
+  width: 100vw;
+  height: 354px;
+  top: 188px;
+}
+
+.todays-sj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.sh-icon {
+  background-image: url(../../assets/icon/shopping.svg);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  margin-right: 4px;
+}
+
+.shopping-line {
+  display: flex;
+  margin: 0 auto;
+  height: 270px;
+  width: 1020px;
+  padding: 0;
+  margin-top: 24px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  flex: 1;
+  width: 200px;
+  height: 270px;
+  margin-right: 5px;
+}
+
+li:last-child {
+  margin-right: 0px;
+}
+
+.sale-percent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px;
+  height: 30px;
+  left: 0;
+  top: 0;
+  position: absolute; /*?*/
+  background-color: var(--color-red-500);
+  border: 1px solid var(--color-red-500);
+  border-radius: 0 0 4px 0;
+  color: var(--color-white);
+  padding: 3px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  z-index: 1;
+}
+
+li img {
+  position: absolute;
+  top: 14px;
+}
+
+.exp-container {
+  position: absolute;
+  bottom: 18px;
+  width: 172px;
+  height: 66px;
+}
+
+.exp {
+  width: 172px;
+  height: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 12px;
+}
+
+.exp-delli {
+  margin-top: 12px;
+  line-height: 14px;
+  font-size: 14px;
+  color: var(--color-gray-700);
+}
+
+.exp-rocket {
+  position: relative;
+  height: 14px;
+  width: 54px;
+}
+
+.exp-rocket img {
+  position: absolute;
+  top: 0;
+}
+
+.s-r {
+  display: flex;
+  margin-top: 6px;
+  align-items: center;
+}
+
+.review {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.stars2 {
+  background-image: url(../../assets/sprites/rating-stars.png);
+  background-repeat: no-repeat;
+  background-position: 0px -125px;
+  overflow: hidden;
+  width: 69px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.stars3 {
+  background-image: url(../../assets/sprites/rating-stars.png);
+  background-repeat: no-repeat;
+  background-position: 0px -110px;
+  overflow: hidden;
+  width: 69px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+.stars4 {
+  background-image: url(../../assets/sprites/rating-stars.png);
+  background-repeat: no-repeat;
+  background-position: 0px -139px;
+  overflow: hidden;
+  width: 69px;
+  height: 14px;
+  margin-right: 4px;
+}
